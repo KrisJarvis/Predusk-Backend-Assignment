@@ -48,6 +48,20 @@ The project also includes CRUD APIs with MongoDB Atlas integration.
 
 3. **Setup MongoDB Atlas**
 
-   1.Create a cluster in MongoDB Atlas\*\*
+   1.Create a cluster in MongoDB Atlas.
    2.Add a Database User and whitelist your IP (0.0.0.0/0 for dev).
    3.Get the Connection String.
+
+4. **Create .env File**
+   ```bash
+   PORT=5000
+   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.abcde.mongodb.net/predusk_assignment?retryWrites=true&w=majority
+   ```
+5. **Run Dev Server**
+   ```bash
+   npm run dev
+   ```
+   ![alt text](image-1.png)
+   ![alt text](image-2.png)
+   ![alt text](image-3.png)
+   ![alt text](image-4.png)
