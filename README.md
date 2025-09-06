@@ -48,8 +48,6 @@ The project also includes CRUD APIs with MongoDB Atlas integration.
 
 3. **Setup MongoDB Atlas**
 
-   ** Create a cluster in MongoDB Atlas**
-   \*\* Add a Database User and whitelist your IP (0.0.0.0/0 for dev).
-
-   - Get the Connection String.\*
-     \*\*
+   1.Create a cluster in MongoDB Atlas\*\*
+   2.Add a Database User and whitelist your IP (0.0.0.0/0 for dev).
+   3.Get the Connection String.
