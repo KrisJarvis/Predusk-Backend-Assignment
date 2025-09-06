@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>Projects</header>
+  <nav>
+    <a href="index.html">Profile</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="search.html">Search</a>
+  </nav>
+
+  <div class="container">
+    <div id="projects" class="card"></div>
+    <div class="card">
+      <h2>Add Project</h2>
+      <form id="projectForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <input type="text" id="skills" placeholder="Skills (comma separated)">
+        <input type="url" id="link" placeholder="Link (optional)">
+        <button type="submit">Add Project</button>
+      </form>
+      <p id="msg"></p>
+    </div>
+  </div>
+
+  <footer>© <span id="year"></span> Playground</footer>
+  <script src="script.js"></script>
+  <script>loadProjects(); setupAddProject();</script>
+</body>
+</html>
