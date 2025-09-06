@@ -21,7 +21,7 @@ The project also includes CRUD APIs with MongoDB Atlas integration.
 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB Atlas (Mongoose ORM)
-- **Frontend:** HTML, CSS (custom styling), Vanilla JavaScript
+- **Frontend:** HTML, CSS (custom styling), JavaScript
 - **Other Tools:** Nodemon, Dotenv
 
 ---
@@ -29,3 +29,27 @@ The project also includes CRUD APIs with MongoDB Atlas integration.
 ## 📂 Project Structure
 
 ![alt text](image.png)
+
+---
+
+## ⚙️ Setup & Installation
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/KrisJarvis/Predusk-Backend-Assignment.git
+   cd Predusk-Backend-Assignment
+   ```
+2. **Install Dependencies**
+
+   ```bash
+   npm install
+
+   ```
+
+3. **Setup MongoDB Atlas**
+
+   ** Create a cluster in MongoDB Atlas**
+   \*\* Add a Database User and whitelist your IP (0.0.0.0/0 for dev).
+
+   - Get the Connection String.\*
+     \*\*
